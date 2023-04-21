@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "tile_forest",
+  "name": "explosion",
   "spriteId": {
-    "name": "spr_tile_grass",
-    "path": "sprites/spr_tile_grass/spr_tile_grass.yy",
+    "name": "spr_effect_explosion",
+    "path": "sprites/spr_effect_explosion/spr_effect_explosion.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "default_solid",
-    "path": "objects/default_solid/default_solid.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +24,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tiles",
-    "path": "folders/Objects/Environment/Tiles.yy",
+    "name": "Environment",
+    "path": "folders/Objects/Environment.yy",
   },
 }

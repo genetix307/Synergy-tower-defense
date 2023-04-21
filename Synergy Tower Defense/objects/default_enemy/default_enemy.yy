@@ -1,20 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "tile_forest",
-  "spriteId": {
-    "name": "spr_tile_grass",
-    "path": "sprites/spr_tile_grass/spr_tile_grass.yy",
-  },
+  "name": "default_enemy",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "default_solid",
-    "path": "objects/default_solid/default_solid.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +25,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tiles",
-    "path": "folders/Objects/Environment/Tiles.yy",
+    "name": "defaults",
+    "path": "folders/Objects/system/defaults.yy",
   },
 }

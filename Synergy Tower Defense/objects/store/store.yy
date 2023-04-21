@@ -1,20 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "tile_forest",
-  "spriteId": {
-    "name": "spr_tile_grass",
-    "path": "sprites/spr_tile_grass/spr_tile_grass.yy",
-  },
+  "name": "store",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "default_solid",
-    "path": "objects/default_solid/default_solid.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +21,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":7,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tiles",
-    "path": "folders/Objects/Environment/Tiles.yy",
+    "name": "system",
+    "path": "folders/Objects/system.yy",
   },
 }
